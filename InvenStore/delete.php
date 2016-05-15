@@ -2,7 +2,8 @@
 
 
 // Kyle Wilson
-
+// Full Sail
+// ASL
 
 
 // establish a connection to the database using PDO
@@ -12,7 +13,7 @@ $pass = 'root';
 $dbh = new PDO('mysql:host=localhost; dbname=ssl; port:8889', $user, $pass);
 
 
-// get fruit id
+// get solar id
 
 $solarid = $_GET['id'];
 

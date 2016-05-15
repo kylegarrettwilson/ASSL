@@ -2,7 +2,8 @@
 
 
 // Kyle Wilson, Developer
-
+// Full Sail
+// ASL
 
 
 
@@ -24,7 +25,7 @@ $dbh = new PDO('mysql:host=localhost; dbname=ssl; port:8889', $user, $pass);
 $solarid = $_GET['id'];
 
 
-// select all from database where the id equals the id that we are targeting (using the $clientid variable above
+// select all from database where the id equals the id that we are targeting (using the $solarid variable above)
 
 
 $stmt = $dbh->prepare("SELECT * FROM invenstore WHERE id = :id");
@@ -34,8 +35,8 @@ $result = $stmt->fetchAll();
 
 
 // this is where the magic happens, there is a isset to make sure the fields are entered correctly and then
-// using post and update to target the cleintsonline table and then setting the new post information to change the
-// respected field on the database table, using $clientsid to make sure we only target THAT ONE CLIENT, NOT ALL OF THEM
+// using post and update to target the invenstore table and then setting the new post information to change the
+// respected field on the database table, using $solarid to make sure we only target THAT ONE CLIENT, NOT ALL OF THEM
 
 if (isset($_POST['submit'])){
 

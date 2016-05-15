@@ -22,26 +22,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.666666">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.9222344">
+              <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
               <folding>
-                <marker date="1463332283000" expanded="true" signature="736:907" placeholder="INSERT INTO invenstore... " />
-                <marker date="1463332283000" expanded="true" signature="3725:3765" placeholder="SELECT * FRO... invenstore" />
+                <marker date="1463332737000" expanded="true" signature="760:931" placeholder="INSERT INTO invenstore... " />
+                <marker date="1463332737000" expanded="true" signature="3744:3784" placeholder="SELECT * FRO... invenstore" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
-                <marker date="1463331621000" expanded="true" signature="348:388" placeholder="DELETE FROM " />
+                <marker date="1463332737000" expanded="true" signature="367:407" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -50,11 +50,11 @@
       <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-38.125">
-              <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding>
-                <marker date="1463332198000" expanded="true" signature="447:486" placeholder="SELECT * FRO... invenstore" />
-                <marker date="1463332198000" expanded="true" signature="1209:1445" placeholder="UPDATE inven... " />
+                <marker date="1463332737000" expanded="true" signature="466:505" placeholder="SELECT * FRO... invenstore" />
+                <marker date="1463332737000" expanded="true" signature="1223:1459" placeholder="UPDATE inven... " />
               </folding>
             </state>
           </provider>
@@ -66,6 +66,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/update.php" />
+        <option value="$PROJECT_DIR$/delete.php" />
         <option value="$PROJECT_DIR$/home.php" />
       </list>
     </option>
@@ -178,32 +179,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-38.125">
-          <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
-            <marker date="1463332198000" expanded="true" signature="447:486" placeholder="SELECT * FRO... invenstore" />
-            <marker date="1463332198000" expanded="true" signature="1209:1445" placeholder="UPDATE inven... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.666666">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <marker date="1463332283000" expanded="true" signature="736:907" placeholder="INSERT INTO invenstore... " />
-            <marker date="1463332283000" expanded="true" signature="3725:3765" placeholder="SELECT * FRO... invenstore" />
+            <marker date="1463332737000" expanded="true" signature="466:505" placeholder="SELECT * FRO... invenstore" />
+            <marker date="1463332737000" expanded="true" signature="1223:1459" placeholder="UPDATE inven... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
-            <marker date="1463331621000" expanded="true" signature="348:388" placeholder="DELETE FROM " />
+            <marker date="1463332737000" expanded="true" signature="367:407" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9222344">
+          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+          <folding>
+            <marker date="1463332737000" expanded="true" signature="760:931" placeholder="INSERT INTO invenstore... " />
+            <marker date="1463332737000" expanded="true" signature="3744:3784" placeholder="SELECT * FRO... invenstore" />
           </folding>
         </state>
       </provider>

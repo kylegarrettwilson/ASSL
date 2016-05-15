@@ -3,6 +3,8 @@
 
 
 // Kyle Wilson, Developer
+// Full Sail
+// ASL
 
 
 
@@ -15,7 +17,7 @@ $mysql = 'mysql:host=localhost;dbname=ssl;port=8889';
 $dbh = new PDO($mysql, $user, $password);
 
 // This is doing two parts, first it is using isset to check if the form has been submitted correctly
-// Secondly it inserts user input into the fruits database
+// Secondly it inserts user input into the invenstore database
 
 
 if (isset($_POST['submit'])){
@@ -113,7 +115,7 @@ if (isset($_POST['submit'])){
 
 
             <!-- first we are saying grab ALL from the fruits database and order by the
-                primary key which is the fruitid and present it is ascending order -->
+                primary key which is the id and present it is ascending order -->
 
             <!-- Then we are using fetchall to run the data through a foreach loop in order to
                 collect and display all of the data within the table. As you can see, the $rw

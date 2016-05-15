@@ -23,18 +23,16 @@ if (isset($_POST['submit'])){
     $itname = $_POST['itname'];
     $quantity = $_POST['quantity'];
     $description = $_POST['description'];
-    $image = $_POST['image'];
     $retailprice = $_POST['retailprice'];
     $partnumber = $_POST['partnumber'];
     $technotes = $_POST['technotes'];
 
 
     $dbh = new PDO($mysql, $user, $password);
-    $stmt = $dbh->prepare("INSERT INTO solar (itname, quantity, description, image, retailprice, partnumber, technotes) VALUES (:itname, :barcode, :quantity, :description, :image, :retailprice, :partnumber, :technotes)");
+    $stmt = $dbh->prepare("INSERT INTO invenstore (itname, quantity, description, retailprice, partnumber, technotes) VALUES (:itname, :quantity, :description, :retailprice, :partnumber, :technotes)");
     $stmt->bindParam(':itname', $itname);
     $stmt->bindParam(':quantity', $quantity);
     $stmt->bindParam(':description', $description);
-    $stmt->bindParam(':image', $image);
     $stmt->bindParam(':retailprice', $retailprice);
     $stmt->bindParam(':partnumber', $partnumber);
     $stmt->bindParam(':technotes', $technotes);
@@ -56,30 +54,12 @@ if (isset($_POST['submit'])){
 <html>
 <head>
     <title>Warehouse App</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
-
-
-
-
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-    <script src="https://raw.githubusercontent.com/jseidelin/exif-js/master/exif.js"></script>
-    <script src="https://raw.githubusercontent.com/stomita/ios-imagefile-megapixel/master/src/megapix-image.js"></script>
-
-    <style>
-        canvas { width: 100%; border: 1px solid #DDD; background: #FAFAFA; cursor: pointer; }
-        input[type=file] { display: none; }
-    </style>
-
-
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
 
 
 </head>
@@ -107,7 +87,6 @@ if (isset($_POST['submit'])){
             <label><b>Item Name:    </b><br><input type="text" name="itname" value="" placeholder="Item Name" required ></label><br>
             <label><b>Quantity: </b><br><input type="number" name="quantity" min="0" max="10000" value="1" required ></label><br>
             <label><b>Description:  </b><br><input type="text" name="description" value="" placeholder="Description" required ></label><br>
-            <label><b>Image Url:    </b><br><input type="text" name="image" value="" placeholder="Image Url" required ></label><br>
             <label><b>Retail Price: </b><br><input type="text" name="retailprice" value="" placeholder="Retail Price" required ></label><br>
             <label><b>Part Number:  </b><br><input type="text" name="partnumber" value="" placeholder="Part Number" required ></label><br>
             <label><b></b><textarea name="technotes" rows="5" cols="80" placeholder="Tech Notes" required ></textarea></label><br>
@@ -143,7 +122,7 @@ if (isset($_POST['submit'])){
             <?php
 
 
-            $stmt = $dbh->prepare('SELECT * FROM solar ORDER BY id ASC');
+            $stmt = $dbh->prepare('SELECT * FROM invenstore ORDER BY id ASC');
 
             $stmt->execute();
 

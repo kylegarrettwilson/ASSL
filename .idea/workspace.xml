@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11d5fc4-a7d0-41c8-90ef-6318767ca179" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InvenStore/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InvenStore/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InvenStore/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InvenStore/delete.php" afterPath="$PROJECT_DIR$/InvenStore/delete.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InvenStore/home.php" afterPath="$PROJECT_DIR$/InvenStore/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InvenStore/update.php" afterPath="$PROJECT_DIR$/InvenStore/update.php" />
     </list>
     <ignored path="ASSL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +29,11 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/InvenStore/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.7213116">
-              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.7377049">
+              <caret line="106" column="139" selection-start-line="106" selection-start-column="139" selection-end-line="106" selection-end-column="139" />
               <folding>
-                <marker date="1463277463000" expanded="true" signature="766:957" placeholder="INSERT INTO solar... " />
-                <marker date="1463277463000" expanded="true" signature="4628:4663" placeholder="SELECT * FRO... solar" />
+                <marker date="1463331621000" expanded="true" signature="736:917" placeholder="INSERT INTO invenstore... " />
+                <marker date="1463331621000" expanded="true" signature="4416:4451" placeholder="SELECT * FRO... solar" />
               </folding>
             </state>
           </provider>
@@ -47,7 +45,7 @@
             <state vertical-scroll-proportion="-20.625">
               <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
               <folding>
-                <marker date="1463277463000" expanded="true" signature="348:383" placeholder="DELETE FROM " />
+                <marker date="1463331621000" expanded="true" signature="348:388" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -56,11 +54,11 @@
       <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InvenStore/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.75">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state vertical-scroll-proportion="-70.625">
+              <caret line="113" column="136" selection-start-line="113" selection-start-column="136" selection-end-line="113" selection-end-column="136" />
               <folding>
-                <marker date="1463277463000" expanded="true" signature="447:481" placeholder="SELECT * FRO... solar" />
-                <marker date="1463277463000" expanded="true" signature="1234:1489" placeholder="UPDATE solar... " />
+                <marker date="1463331621000" expanded="true" signature="447:486" placeholder="SELECT * FRO... solar" />
+                <marker date="1463331621000" expanded="true" signature="1209:1440" placeholder="UPDATE solar... " />
               </folding>
             </state>
           </provider>
@@ -105,7 +103,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="92" />
+    <option name="x" value="100" />
     <option name="y" value="23" />
     <option name="width" value="1798" />
     <option name="height" value="1057" />
@@ -239,7 +237,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="92" y="23" width="1798" height="1057" extended-state="0" />
+    <frame x="100" y="23" width="1798" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16514806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -274,8 +272,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1463277463000" expanded="true" signature="766:957" placeholder="INSERT INTO solar... " />
-            <marker date="1463277463000" expanded="true" signature="4628:4663" placeholder="SELECT * FRO... solar" />
+            <marker date="1463331621000" expanded="true" signature="736:917" placeholder="INSERT INTO invenstore... " />
+            <marker date="1463331621000" expanded="true" signature="4416:4451" placeholder="SELECT * FRO... solar" />
           </folding>
         </state>
       </provider>
@@ -285,7 +283,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1463277463000" expanded="true" signature="348:383" placeholder="DELETE FROM " />
+            <marker date="1463331621000" expanded="true" signature="348:388" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -295,8 +293,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1463277463000" expanded="true" signature="447:481" placeholder="SELECT * FRO... solar" />
-            <marker date="1463277463000" expanded="true" signature="1234:1489" placeholder="UPDATE solar... " />
+            <marker date="1463331621000" expanded="true" signature="447:486" placeholder="SELECT * FRO... solar" />
+            <marker date="1463331621000" expanded="true" signature="1209:1440" placeholder="UPDATE solar... " />
           </folding>
         </state>
       </provider>
@@ -314,29 +312,29 @@
         <state vertical-scroll-proportion="-20.625">
           <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
           <folding>
-            <marker date="1463277463000" expanded="true" signature="348:383" placeholder="DELETE FROM " />
+            <marker date="1463331621000" expanded="true" signature="348:388" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/InvenStore/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.75">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state vertical-scroll-proportion="-70.625">
+          <caret line="113" column="136" selection-start-line="113" selection-start-column="136" selection-end-line="113" selection-end-column="136" />
           <folding>
-            <marker date="1463277463000" expanded="true" signature="447:481" placeholder="SELECT * FRO... solar" />
-            <marker date="1463277463000" expanded="true" signature="1234:1489" placeholder="UPDATE solar... " />
+            <marker date="1463331621000" expanded="true" signature="447:486" placeholder="SELECT * FRO... solar" />
+            <marker date="1463331621000" expanded="true" signature="1209:1440" placeholder="UPDATE solar... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/InvenStore/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7213116">
-          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.7377049">
+          <caret line="106" column="139" selection-start-line="106" selection-start-column="139" selection-end-line="106" selection-end-column="139" />
           <folding>
-            <marker date="1463277463000" expanded="true" signature="766:957" placeholder="INSERT INTO solar... " />
-            <marker date="1463277463000" expanded="true" signature="4628:4663" placeholder="SELECT * FRO... solar" />
+            <marker date="1463331621000" expanded="true" signature="736:917" placeholder="INSERT INTO invenstore... " />
+            <marker date="1463331621000" expanded="true" signature="4416:4451" placeholder="SELECT * FRO... solar" />
           </folding>
         </state>
       </provider>

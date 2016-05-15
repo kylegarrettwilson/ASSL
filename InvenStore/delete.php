@@ -19,7 +19,7 @@ $solarid = $_GET['id'];
 
 // this is using DELETE to target the solar id and then delete that item from the database
 
-$stmt = $dbh->prepare("DELETE FROM solar where id IN (:id)");
+$stmt = $dbh->prepare("DELETE FROM invenstore where id IN (:id)");
 
 
 $stmt->bindParam(':id', $solarid);

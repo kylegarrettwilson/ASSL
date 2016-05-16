@@ -69,7 +69,7 @@ if (isset($_POST['submit'])){
 <html>
 <head>
     <title>Inventory Update</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/update.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,100,700' rel='stylesheet' type='text/css'>
 
 
@@ -84,19 +84,41 @@ if (isset($_POST['submit'])){
 <body>
 
 <div id="wrapper">
-    <h1>Inventory Update</h1>
+
+
+    <h1>InvenStore</h1>
+
+
+    <h3>Inventory Update</h3>
 
 
 
 
     <form action="" id="add" method="POST">
 
+        <div class="form-group">
         <h2>Item Name: </h2><input type="text" name="itname" value=<?php echo '"'.$result[0]['itname'].'"';?>required /><br>
+        </div>
+
+        <div class="form-group">
         <h2>Quantity: </h2><input type="text" name="quantity" value=<?php echo '"'.$result[0]['quantity'].'"';?>required /><br>
+        </div>
+
+        <div class="form-group">
         <h2>Description: </h2><input type="text" name="description" value=<?php echo '"'.$result[0]['description'].'"';?>required /><br>
+        </div>
+
+        <div class="form-group">
         <h2>Retail Price: </h2><input type="text" name="retailprice" value=<?php echo '"'.$result[0]['retailprice'].'"';?>required /><br>
+        </div>
+
+        <div class="form-group">
         <h2>Part Number: </h2><input type="text" name="partnumber" value=<?php echo '"'.$result[0]['partnumber'].'"';?>required /><br>
+        </div>
+
         <h2>Technotes: </h2><input type="text" name="technotes" value=<?php echo '"'.$result[0]['technotes'].'"';?>required /><br><br>
+
+
 
         <input type="submit" name="submit" value="Update"/>
 

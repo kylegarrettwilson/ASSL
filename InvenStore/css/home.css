@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: 100;
+    font-size: 5em;
+    text-align: center;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+form{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}

@@ -60,8 +60,9 @@ if (isset($_POST['submit'])){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
 
 
 </head>
@@ -72,7 +73,7 @@ if (isset($_POST['submit'])){
 
 <div id="app">
 
-    <h1>Warehouse App</h1>
+    <h1>InvenStore</h1>
 
     <h3>Data Input</h3>
 
@@ -85,13 +86,40 @@ if (isset($_POST['submit'])){
     <!-- form section -->
 
     <section>
-        <form action="home.php" method="post">
-            <label><b>Item Name:    </b><br><input type="text" name="itname" value="" placeholder="Item Name" required ></label><br>
-            <label><b>Quantity: </b><br><input type="number" name="quantity" min="0" max="10000" value="1" required ></label><br>
-            <label><b>Description:  </b><br><input type="text" name="description" value="" placeholder="Description" required ></label><br>
-            <label><b>Retail Price: </b><br><input type="text" name="retailprice" value="" placeholder="Retail Price" required ></label><br>
-            <label><b>Part Number:  </b><br><input type="text" name="partnumber" value="" placeholder="Part Number" required ></label><br>
-            <label><b></b><textarea name="technotes" rows="5" cols="80" placeholder="Tech Notes" required ></textarea></label><br>
+        <form action="home.php"  method="post">
+
+
+            <div class="form-group">
+            <label class="control-label" ><b>Item Name:  </b><br><input type="text" class="form-control"  name="itname" value="" placeholder="Item Name" required ></label><br>
+            </div>
+
+
+            <div class="form-group">
+            <label class="control-label"><b>Quantity: </b><br><input type="number" class="form-control"   name="quantity" min="0" max="10000" value="1" required ></label><br>
+            </div>
+
+
+            <div class="form-group">
+            <label class="control-label"><b>Description:  </b><br><input type="text" class="form-control"  name="description" value="" placeholder="Description" required ></label><br>
+            </div>
+
+
+            <div class="form-group">
+            <label class="control-label"><b>Retail Price: </b><br><input type="text" class="form-control"   name="retailprice" value="" placeholder="Retail Price" required ></label><br>
+            </div>
+
+
+            <div class="form-group">
+            <label class="control-label"><b>Part Number:  </b><br><input type="text" class="form-control"   name="partnumber" value="" placeholder="Part Number" required ></label><br>
+            </div>
+
+
+            <div class="form-group">
+            <label class="control-label"><b></b><textarea class="form-control" rows="3" name="technotes" cols="50" placeholder="Tech Notes" ></textarea></label><br>
+            </div>
+
+
+
             <input type="submit" name="submit" value="Submit">
 
         </form>
@@ -104,7 +132,8 @@ if (isset($_POST['submit'])){
 
 
     <section>
-        <table>
+        <div class="table-responsive">
+        <table class="table table-striped table-hover">
             <tr>
                 <th>Id</th>
                 <th>Item Name</th>
@@ -142,7 +171,9 @@ if (isset($_POST['submit'])){
             ?>
 
 
-        </table></section>
+        </table>
+        </div>
+    </section>
 
 
 
@@ -155,6 +186,9 @@ if (isset($_POST['submit'])){
 
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 
 
 </body>

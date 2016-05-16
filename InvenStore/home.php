@@ -42,6 +42,18 @@ if (isset($_POST['submit'])){
 }
 
 
+    // Laravel ---> Node.js
+
+   // Schema::table('invenstore', function ($table) {
+    //    $table->string('description')->nullable();
+   // });
+
+
+   // Schema::table('invenstore', function ($table) {
+   //     $table->integer('votes');
+   // });
+
+
 ?>
 
 
